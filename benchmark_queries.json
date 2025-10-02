@@ -1,0 +1,54 @@
+{
+  "queries": {
+    "1": {
+      "query": "Avastin",
+      "type": "prefix",
+      "description": "Prefix search for Avastin"
+    },
+    "2": {
+      "query": "Paracetamol",
+      "type": "prefix",
+      "description": "Prefix search for Paracetamol"
+    },
+    "3": {
+      "query": "Injection",
+      "type": "substring",
+      "description": "Substring search for Injection"
+    },
+    "4": {
+      "query": "antibiotic",
+      "type": "fulltext",
+      "description": "Full-text search for antibiotic"
+    },
+    "5": {
+      "query": "pain",
+      "type": "fuzzy",
+      "description": "Fuzzy search for pain relief medicines"
+    },
+    "6": {
+      "query": "Ibuprofen",
+      "type": "prefix",
+      "description": "Prefix search for Ibuprofen"
+    },
+    "7": {
+      "query": "blood pressure",
+      "type": "fulltext",
+      "description": "Full-text search for blood pressure medicines"
+    },
+    "8": {
+      "query": "diabetes",
+      "type": "substring",
+      "description": "Substring search for diabetes medicines"
+    },
+    "9": {
+      "query": "Aspirin",
+      "type": "fuzzy",
+      "description": "Fuzzy search for Aspirin (with potential typos)"
+    },
+    "10": {
+      "query": "Tablet",
+      "type": "substring",
+      "description": "Substring search for Tablet medicines"
+    }
+  }
+}
